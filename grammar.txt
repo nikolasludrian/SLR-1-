@@ -1,0 +1,10 @@
+S → if E then S else S
+S → while E do S
+S → id := E
+E → E + T
+E → T
+T → T * F
+T → F
+F → ( E )
+F → id
+F → num
